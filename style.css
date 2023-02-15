@@ -1,0 +1,71 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  display: flex;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: #00ffbb;
+}
+
+svg {
+  width: 90vw;
+  max-width: 800px;
+  height: auto;
+  opacity: 0;
+}
+
+path,
+line {
+  stroke: white;
+  fill: none;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+}
+h1 {
+  font-weight: 1000;
+  color: black;
+    font-size: 5.5em;
+}
+h2 {
+  font-weight: 700;
+    color: white;
+
+}
+h2 span {
+  font-weight: 700;
+  color: #5cceee;
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+    color: white;
+
+}
+
+a {
+  background: #5cceee;
+  color: test;
+  padding: 6px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-top: 5px
+}
+
+a:hover {
+  background: black;
+  color: white;
+}
